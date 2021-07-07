@@ -16,7 +16,7 @@ public class CorsConfig {
 				registry.addMapping("/**")
 				.allowedMethods("GET","POST","PUT","DELETE")
 				.allowedHeaders("*")
-				.allowedOrigins("https://moogle-backend-container");
+				.allowedOrigins("http://moogle-backend-container");
 			}
 		};
 	}
