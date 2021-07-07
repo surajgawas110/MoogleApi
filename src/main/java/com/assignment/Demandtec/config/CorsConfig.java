@@ -16,7 +16,7 @@ public class CorsConfig {
 				registry.addMapping("/**")
 				.allowedMethods("GET","POST","PUT","DELETE","OPTIONS")
 				.allowedHeaders("*")
-				.allowedOrigins("*");
+				.allowedOrigins("http://ec2-3-140-249-42.us-east-2.compute.amazonaws.com");
 			}
 		};
 	}
